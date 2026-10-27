@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhysioConnect | Book physiotherapy appointments online</title>
+  <meta name="description" content="Book a physiotherapy appointment online. Choose a service, pick a doctor and see real available times.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header id="site-header"></header>
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Physiotherapy clinic</span>
+          <h1>Physiotherapy that gets you moving again.</h1>
+          <p class="lead">Book a session with a qualified physiotherapist in a few minutes. Choose a service, pick a doctor, and see their real available times.</p>
+          <div class="row">
+            <a class="btn btn-primary" href="book.html">Book an appointment <span data-icon="arrow"></span></a>
+            <a class="btn btn-secondary" href="#how">How it works</a>
+          </div>
+          <div class="trust-row" id="trust-row"></div>
+        </div>
+        <aside class="card next-card" aria-labelledby="next-title">
+          <h2 id="next-title" class="title-sm"><span data-icon="clock"></span> Next available times</h2>
+          <div id="next-list" class="muted">Loading availability...</div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <span class="eyebrow">Services</span>
+        <h2 id="services-title">Treatment for every stage of recovery</h2>
+        <p class="lead">Clear durations and prices, so you know what to expect before you book.</p>
+        <div id="services-grid" class="grid grid-3" style="margin-top:32px"></div>
+      </div>
+    </section>
+
+    <section class="section" id="doctors" aria-labelledby="doctors-title" style="background:#fff;border-block:1px solid var(--line)">
+      <div class="container">
+        <span class="eyebrow">Our doctors</span>
+        <h2 id="doctors-title">Meet your physiotherapists</h2>
+        <p class="lead">Qualified specialists, each with their own working hours and services.</p>
+        <div id="doctors-grid" class="grid grid-2" style="margin-top:32px"></div>
+      </div>
+    </section>
+
+    <section class="section" id="how" aria-labelledby="how-title">
+      <div class="container">
+        <span class="eyebrow">How it works</span>
+        <h2 id="how-title">Three steps to your appointment</h2>
+        <div class="steps" style="margin-top:32px">
+          <div class="step"><h3>Choose a service and doctor</h3><p class="muted">Pick the treatment you need and the physiotherapist you prefer.</p></div>
+          <div class="step"><h3>Pick a time that suits you</h3><p class="muted">Only times that are genuinely free are shown, so there is no back and forth.</p></div>
+          <div class="step"><h3>Confirm and attend</h3><p class="muted">Your booking is confirmed straight away. Pay at the clinic after your visit.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="site-footer"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
